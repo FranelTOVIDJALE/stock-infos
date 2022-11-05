@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todolist.css">
+    <title>Document</title>
+</head>
+<body>
+   <br><br>
+      <div class="container">
+        <fieldset>
+              
+            <legend>Informations Client</legend>
+        
+      <form id="survey-form">
+        <div class="form-group">
+          <label class="name-label" id="name-label" for="name">Nom</label>
+          <input
+            type="text"
+            name="nom"
+            id="name"
+            class="form-control"
+            placeholder="Entrer votre nom"
+          
+          />
+        </div>
+        <div class="form-group">
+          <label class="name-label2" id="email-label" for="email">Prenom</label>
+          <input type="text"
+            name="prenom"
+            id="email"
+            class="form-control"
+            placeholder="Entrer votre prenom"
+            
+          />
+        </div>
+        <div class="form-group">
+          <label class="name-label3" id="number-label" for="number"
+            >Adresse<span class="clue"></span></label
+          >
+          <input
+            type="text"
+            name="Adresse"
+            id="number"
+           
+            class="form-control"
+            placeholder="" 
+          />
+        </div>
+        <div class="form-grou">
+          <p class="droptitle">Departement  </p>
+          <select id="dropdown" name="Departement" class="form-control" >
+            <option disabled selected value> Departement </option>
+            <option >Atacora</option>
+            <option >Donga</option>
+            <option >Bogou</option>
+            <option >Alibori</option>
+            <option >Atlantique</option>
+            <option >Littoral</option>
+            <option >Mono</option>
+            <option >Couffo</option>
+            <option >Ouémé</option>
+            <option >Plateau</option>
+            <option >Zou</option>
+            <option >Collines</option>
+          </select>
+        </div>
+         
+        <div class="form-group">
+          <label class="name-label4" id="email-label" for="email">Date-achat</label>
+          <input type="date"
+            name="prenom"
+            id="date"
+            class="form-control"
+ 
+          />
+
+        <div class="form-grou">
+          <p class="droptitle2">Sexe :</p>
+          <label class="labelradio" >
+            <input
+            id="choix1"
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"  
+             
+            />Masculin</label
+          >
+          <pre>  </pre>
+          <label class="labelradio">
+            <input
+               id="choix2"
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            
+            />Feminin</label
+          >
+
+        </div>
+
+    
+
+        <div class="form-group">
+         
+        <label class="labelradio"
+            ><input
+              id="camera"
+              name="prefer"
+              value="front-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Caméra de recule</label
+          > 
+       
+          <label class="labelradio"
+            ><input
+               id="video"
+              name="prefer"
+              value="data-visualization"
+              type="checkbox"
+              class="input-checkbox"
+            />Auto-radio/vidéo</label
+          >
+         
+        </div>
+        <div class="form-group">
+            <label class="name-label" id="name-label" for="name">Prix</label>
+            <input
+              type="number"
+              name="price"
+              min=""
+              max=""
+              id="name2"
+              class="form-control"
+              placeholder="Entrer votre nom"
+             
+            />
+          </div>
+          <div class="form-group">
+            <label class="name-label2" id="email-label" for="email">Couleur</label>
+            <input type="color"
+              name="color"
+              id="email2"
+              class="form-control"
+              value="#eee"
+              placeholder="Entrer votre prenom"
+              
+            />
+          </div>
+
+        <div class="form-group" >
+          <button type="submit" id="submit" class="submit-button" onclick="">
+            Ajouter
+          </button>
+          
+          <button type="reset" id="submit3" class="submit-button "  onclick="">
+           Annuler
+          </button>
+   
+      </form>
+  
+    </fieldset><br><br>
+    </div> <br><br><br>
+    
+    <div class="horiz">
+
+   <table id="table">
+      <thead >
+        <tr id="AA">
+          <th>N° Client</th>
+          <th>Nom</th>
+          <th>prenom</th>
+          <th>Adresse</th>
+          <th>Département</th>
+          <th>Date-achat</th>
+          <th>Sexe</th>
+          <th>Camera de recul</th>
+          <th>Auto-radio|Vidéo</th>
+          <th>Prix</th>
+          <th>Couleur</th>
+        </tr>
+      </thead>
+      
+      <tbody id="parent">
+        <tr id="tr">
+          <td> AK105</td>
+          <td> Franel </i> </td>
+          <td> TOVIDJALE </i> </td>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>2022-12-31</td>
+          <td>M</td>
+          <td><i class="material-icons iconok" id="iconok" >done</i></td>
+          <td><i class="material-icons" id="iconno" >clear</i></td>
+          <td>2000$</td>
+          <td>#000000</td>
+        </tr>
+      </tbody>
+  </table> 
+</div>
+  <br><br><br><br>
+  <script src="todolist.js"></script>
+</body>
+</html>
