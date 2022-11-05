@@ -1,0 +1,437 @@
+
+*{
+    box-sizing: border-box;
+}
+legend{
+    padding:10px 10; 
+    text-align: center; 
+    font-size:20px;
+    font-weight: 800;
+   
+}
+
+
+table {
+  background-color: rgba(0, 0, 0, 0.575);
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align:center ;
+  padding: 8px;
+ 
+}
+td{
+    text-align: center;
+}
+#iconok{
+    font-size:32px;
+     color:rgb(23, 232, 23);
+}
+.iconok{
+    font-size:32px;
+     color:rgb(23, 232, 23);
+}
+.iconno{
+    font-size:32px;
+    color:red;
+}
+#iconno{
+    font-size:32px;
+    color:red;
+}
+
+tr:nth-child(even) {
+  background-color:rgba(0, 0, 9, 0.8) ;
+}
+/**************************/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color:white;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+   background-image: linear-gradient( 115deg, #f3c920a3, #cbcb245e), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form{
+    margin-left: 8%;
+}
+    
+.container{
+    margin: 0px auto;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.form-group input{
+    display:inline;
+}
+.form-grou{
+    display:flex;
+}
+
+#name{
+    width: 50%;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    outline-color: #0d6efd;
+    padding-left: 2%;
+    margin-bottom: 25px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out,
+     box-shadow 0.15s ease-in-out;
+}
+#name2{
+    width: 50%;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    outline-color: #0d6efd;
+    padding-left: 2%;
+    margin-bottom: 25px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out,
+     box-shadow 0.15s ease-in-out;
+}
+#date{
+    width: 50%;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    outline-color: #0d6efd;
+    padding-left: 2%;
+    margin-bottom: 25px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out,
+     box-shadow 0.15s ease-in-out;
+}
+#email{
+    width: 50%;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    outline-color: #0d6efd;
+    padding-left: 2%;
+    margin-bottom: 25px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out,
+     box-shadow 0.15s ease-in-out;
+}
+#email2{
+    width: 50%;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    outline-color: #0d6efd;
+    padding-left: 2%;
+    margin-bottom: 25px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out,
+     box-shadow 0.15s ease-in-out;
+}
+
+#number{
+    width: 50%;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    outline-color: #0d6efd;
+    padding-left: 2%;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out,
+     box-shadow 0.15s ease-in-out;
+}
+#dropdown{
+    width: 50%;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: solid 1px;
+    outline-color: #0d6efd;
+    padding-left: 2%;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out,
+     box-shadow 0.15s ease-in-out;
+}
+.name-label{
+    margin-right: 27%;
+}
+.name-label2{
+    margin-right: 21%;
+}
+.name-label3{
+    margin-right: 19%;
+}
+.name-label4{
+    margin-right: 17%;
+}
+label{
+    font-weight: 600;
+     font-size: 18px;
+
+}
+.droptitle{
+     font-weight: 600;
+     font-size: 18px;
+     margin-right: 9%;
+     margin-top: 40px;
+}
+.droptitle2{
+    font-weight: 600;
+     font-size: 18px;
+     margin-right: 23%;
+}
+.droptitle1{
+    font-weight: 600;
+     font-size: 18px;
+     margin-top: 40px;
+}
+.labelradio{
+    display:flex;
+    margin-top:20px ;
+    
+}
+.input-radio{
+    margin-bottom:25px ;  
+    margin-right: 10px; 
+}
+
+.input-checkbox{
+    width: 20px;
+   margin-bottom: 4px;
+   margin-left: 25%;
+   margin-right: 1%;
+   border: 1px solid #ced4da;
+}
+.input-textarea{
+    padding-left: 2%;
+    padding-top: 5px;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.clue{
+    font-size: 15px;
+    margin-left: 1%;
+}
+#submit{
+    width: 30%;
+    height:40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:blue;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    border: none;
+    color:white;
+    margin-left: -5%;
+    margin-right: 40%;
+   
+}
+
+
+#submit3{
+    width: 30%;
+    height:40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:red;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    border: none;
+    color:white;
+
+}
+
+
+/****************************Responsive**************************************/
+@media screen and (max-width: 768px){
+   body{
+    width: 100%;
+    height: auto;
+   }
+
+    .container{
+      width: 98%;
+      box-sizing: border-box;
+      padding-top: 20px;
+      margin-top: 0px;
+    }
+   
+    h1{
+        font-size: 14px;
+    }
+    #description{
+        font-size: 14px;
+        
+    }
+    .input-textarea{
+        width: 98%;
+        height: 60px;
+    }
+    #submit{
+        height: 30px;
+        font-size: 14px;
+        width: 25%;
+        margin-left: 3.5%;
+       
+    }
+   
+
+
+    #submit3{
+        height: 30px;
+        font-size: 14px;
+        width: 25%;
+    }
+    #name{
+        height: 25px;
+        font-size: 12px;
+    }
+    #email{
+        height: 25px;
+        font-size: 12px;
+    }
+    #number{
+        height: 25px;
+        font-size: 12px;
+    }
+    #dropdown{
+        height: 25px;
+        width: 56%;
+        font-size: 12px;
+        margin-left: 5%;
+        
+    }
+    label{
+        font-size:12px ;
+    }
+    p.droptitle{
+        font-size: 12px;
+        margin-right: 10%;
+       
+    }
+    .droptitle1{
+        font-size: 12px;
+       
+    }
+    .droptitle2{
+        font-size: 12px;
+        margin-right: 5%;
+        padding-top: 8px;
+    }
+    .clue{
+        font-size: 12px;
+    }
+    .input-checkbox{
+        margin-bottom: 6px;
+        margin-top: 0px;
+    }
+    .input-radio{
+        margin-bottom: 6px;
+        margin-top: 0px;
+    }
+
+    /**********************suite responsive***********************/
+
+.form-grou{
+    width:90%;
+    padding: 0%;
+    box-sizing: border-box;
+   }
+fieldset{
+    width: 97%;
+     padding: 0%;
+}
+legend{
+    font-size: 12px;
+}
+form{
+    margin-left: 5%;
+}
+.horiz{
+    overflow-x: auto;
+    width: 98%;
+    margin: auto;
+}
+#date{
+  height: 25px;
+   
+}
+#choix1 {
+    margin-top: -8px;
+}
+ #choix2{
+    margin-top: -8px;
+}
+
+}
